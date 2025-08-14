@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body{
+
+    height: 100%; /*100% da area visivel do navegador*/
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(39, 37, 37);
+}
+
+.parallax1{ /*primeira imagem*/
+
+    position: relative; /*deine posicionamento relativo*/
+    background-image: url(../img/conceito-de-cinema-com-elementos-de-filme.jpg);
+    height: 100%; /*100% da div parallax1*/
+    opacity: 0.8;
+    background-attachment: fixed; /*deixa imagem fixa*/
+    background-position: center; /*centraliza a imagem*/
+    background-repeat: no-repeat; /*não repete a imagem*/
+    background-size: cover; /*ajusta a proporção da imagem*/
+}
+
+.caption{ /*div que abriga os borders*/
+
+    text-align: center;
+    position: absolute; /*define o posicionamento */
+    left: 0; /*gruda o quadro no canto esquerdo*/
+    top: 50%; /*coloca o quadro com o texto no cnetro da div parallax1*/
+    width: 100%; /*centraliza*/
+}
+
+.caption span.border{
+
+    background-color: #f90202;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px; /*espaçamento entre as letras*/
+}
+
+.parallax2{ /*segunda imagem*/
+
+    position: relative; /*deine posicionamento relativo*/
+    background-image: url(../img/pessoa-documentando-guerra-e-zona-de-conflito-atraves-da-fotografia.jpg);
+    height: 100%; /*100% da div parallax1*/
+    opacity: 2.0;
+    background-attachment: fixed; /*deixa imagem fixa*/
+    background-position: center; /*centraliza a imagem*/
+    background-repeat: no-repeat; /*não repete a imagem*/
+    background-size: cover; /*ajusta a proporção da imagem*/
+}
+
+.parallax3{ /*terceira imagem*/
+
+    position: relative; /*deine posicionamento relativo*/
+    background-image: url(../img/retrato-de-um-influenciador-de-fitness.jpg);
+    height: 100%; /*100% da div parallax1*/
+    opacity: 0.8;
+    background-attachment: fixed; /*deixa imagem fixa*/
+    background-position: center; /*centraliza a imagem*/
+    background-repeat: no-repeat; /*não repete a imagem*/
+    background-size: cover; /*ajusta a proporção da imagem*/
+}
+
+.box1{
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    color: rgb(46, 46, 46);
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+    padding: 50px 80px;
+    margin: 0;
+}
+
+.box1 h3{  /*titulo do box1*/
+
+    text-align: center;
+}
+
+.box2{
+
+    background-color: rgb(59, 59, 59);
+    font-size: 25px;
+    color: rgb(221, 221, 221);
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    padding: 50px 80px;
+    margin: 0;
+}
+
+.box3{
+
+    background-color: rgb(59, 59, 59);
+    font-size: 25px;
+    color: rgb(221, 221, 221);
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    padding: 50px 80px;
+    position: sticky;
+    bottom: 0;
+    top: 0;
+}
+
+.box3 a{
+
+    color: inherit;
+    text-decoration: underline;
+    position: sticky;
+    top: 0;
+}
+
+
+.projects{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(99, 99, 99, 0.527);
+    width: 100%;
+    height: 50%;
+}
+
+.pj1{
+
+    background-image: url(../img/clouds_colors_desert_dusk_face_golden_hour_grand_canyon_hair-1559583.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 600px;
+    height: 300px;
+    padding: 30px 30px;
+}
+
+.pj2{
+
+    background-image: url(../img/sunset-landscapes-nature-animals-photography-zebras-africa-1920x1200-abstract-photography-hd-art-wallpaper-preview.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0;
+    width: 600px;
+    height: 300px;
+    padding: 30px 30px;
+}
+
+.pj3{
+
+    background-image: url(../img/person-sitting-in-field-with-mountains-background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 600px;
+    height: 300px;
+    padding: 30px 30px;
+    justify-content: flex-end;
+}
